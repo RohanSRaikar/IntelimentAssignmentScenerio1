@@ -16,8 +16,8 @@
         android:gravity="center"
         android:textColor="@drawable/tab_text_selector"
         android:text="Title"
-        android:paddingLeft="18dp"
-        android:paddingRight="18dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
         android:textSize="25dp" />
 
 </LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidAssignment1</string>
+    <string name="tabMsg">Tab Click message to be displayed here</string>
+</resources>

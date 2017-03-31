@@ -12,12 +12,26 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
-    signingConfigs{}
+    signingConfigs{
+         releaseConfig{
+             storeFile file("DroidInception.jks");
+             storePassword ("inception");
+             keyAlias "Inception"
+             keyPassword "droid123"
+
+         }
+    }
 
     buildTypes {
         release {
             minifyEnabled false
+            debuggable false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.releaseConfig
+        }
+        debug{
+            debuggable true
+            applicationIdSuffix ".debug"
         }
     }
 }

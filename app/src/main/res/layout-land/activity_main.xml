@@ -62,6 +62,7 @@
                 android:layout_height="wrap_content"
                 android:paddingRight="45dp"
                 android:paddingLeft="35dp"
+                android:gravity="center"
                 android:background="@color/colorLightPrimary"
                 >
                 <TextView
@@ -125,7 +126,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:id="@+id/LL_btnBackground"
-                android:padding="10dp"
+                android:padding="30dp"
                 android:background="@color/colorDivider"
                 android:gravity="center">
 
